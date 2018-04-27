@@ -7,8 +7,8 @@
   }
   
   body {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 32px;
     background-color: #fff;
     margin: 0;
     text-align: center;
@@ -115,18 +115,26 @@
   }
 
   #aboutPic {
-    height: 35%;
-    width: 35%;
+    height: 30%;
+    width: 30%;
     float: left;
     margin-right: 20px;
   }
 
+  .portfolioContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .portfolioPic {
-    height: 35%;
-    width: 35%;
+    height: 200px;
+    width: 25%;
     float: left;
     margin: 20px;
     display: block;
+    position: relative;
   }
 
   .portfolioPic-box{
@@ -134,12 +142,15 @@
     color: #777777;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    position: relative;
-    height: 20%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
   }
 
   .portfolioCopy {
-    padding: 15px 0 0 0;
+    line-height: 5%;
   }
 
   .firstpic {
@@ -178,7 +189,7 @@
     color: #cccccc;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     padding-left: 20px;
     padding-right: 20px;
