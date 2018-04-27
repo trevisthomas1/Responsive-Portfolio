@@ -135,8 +135,11 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     position: relative;
-    top: 155px;
-    height: 40px;
+    height: 15%;
+  }
+
+  .portfolioCopy {
+    padding: 15px 0 0 0;
   }
 
   .firstpic {
@@ -175,7 +178,7 @@
     color: #cccccc;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
     padding-left: 20px;
     padding-right: 20px;
@@ -231,5 +234,6 @@ footer {
 #copyright {
   padding-top: 10px;
   color: #777777;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
