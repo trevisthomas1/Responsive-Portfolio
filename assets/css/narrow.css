@@ -2,244 +2,264 @@
  * Float Layout Activity
  **/
 
- * {
-    text-align: center;
-  }
-  
-  body {
-    font-size: 12px;
-    line-height: 16px;
-    background-color: #fff;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-    background-image: url(../images/furley_bg.png);
-  }
-
-  .container {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  header {
-    margin-bottom: 20px;
-    height: 60px;
-    width: 100%;
-    background: #4aaaa5;
-    border-bottom: 10px #cccccc solid;
-    font-family: 'Open Sans', sans-serif;
-    float: left;
-  }
-
-  .name {
-    margin-left: 25%;
-    color: #ffffff;
-    background: #bbb;
-    width: 15%;
-    height: 45px;
-    float: left;
-    padding: 15px 0 0 0;
-  }
-
-  nav {
-    float: right;
-    margin-top: 15px;
-    margin-right: 25%;
-  }
-
-  nav a:hover {
-    color: #ffffff;
-  }
-
-  nav ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li{
-    list-style: none;
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 20px;
-  }
-
-  nav ul li a {
-    position: relative;
-    text-decoration: none;
-    color: #777777;
-    font-weight: bold;
-  }
-
-  .aboutMain {
-    position: relative;
-    padding: 20px;
-    margin-left: 25%;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    width: 50%;
-    float: left;
-    background-color: #888;
-    border: #cccccc 10px solid;
-  }
-
-   .portfolioMain {
-    position: relative;
-    padding: 20px;
-    margin-left: 25%;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    width: 50%;
-    float: left;
-    background-color: #888;
-    border: #cccccc 10px solid;
-  }
-
-  .contactMain {
-    position: relative;
-    padding: 20px;
-    margin-left: 25%;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    width: 50%;
-    float: left;
-    background-color: #888;
-    border: #cccccc 10px solid;
-  }
-
-  .aboutMe {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    text-decoration: underline;
-    color: #cccccc;
-    
-  }
-
-  #aboutPic {
-    height: 40%;
-    width: 40%;
-    float: left;
-    margin-right: 20px;
-  }
-
-  .portfolioContainer {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .portfolioPic {
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin: 20px;
-    display: block;
-    position: relative;
-  }
-
-  .portfolioPic-box{
-    background: #4aaaa5;
-    color: #777777;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    float: left;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 25%;
-  }
-
-  .portfolioCopy {
-    line-height: 5% !important;
-    margin-top: 12%;
-    font-size: 18px !important;
-  }
-
-  .firstpic {
-    background-image: url("../images/michael.jpeg");
-    background-size: cover;
-    border: 5px solid #bbb;
-  }
-
-  .secondpic {
-    background-image: url("../images/georgemichael.jpeg");
-    background-size: cover;
-    border: 5px solid #bbb;
-  }
-
-  .thirdpic {
-    background-image: url("../images/gob.jpeg");
-    background-size: cover;
-    border: 5px solid #bbb;
-  }
-
-  .fourthpic {
-    background-image: url("../images/tobias.jpeg");
-    background-size: cover;
-    border: 5px solid #bbb;
-  }
-
-  .fifthpic {
-    background-image: url("../images/buster.jpeg");
-    background-size: cover;
-    border: 5px solid #bbb;
-  }
-
-  .copy {
-    float: right;
-    clear: both;
-    color: #cccccc;
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    line-height: 24px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+* {
+  text-align: center;
 }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #4aaaa5;
-    color: #bbb;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+body {
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  background-image: url(../images/furley_bg.png);
 }
 
-input[type=submit]:hover {
-    background-color: #4aaaa5;
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 20px;
+  height: 60px;
+  width: 100%;
+  background: #4aaaa5;
+  border-bottom: 10px #cccccc solid;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+}
+
+.name {
+  margin-left: 25%;
+  color: #ffffff;
+  background: #bbb;
+  width: 15%;
+  height: 45px;
+  float: left;
+  padding: 15px 0 0 0;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 25%;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #777777;
+  font-weight: bold;
+}
+
+.aboutMain {
+  position: relative;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  width: 50%;
+  float: left;
+  background-color: #888;
+  border: #cccccc 10px solid;
+}
+
+.portfolioMain {
+  position: relative;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  width: 50%;
+  float: left;
+  background-color: #888;
+  border: #cccccc 10px solid;
+}
+
+.contactMain {
+  position: relative;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  width: 50%;
+  float: left;
+  background-color: #888;
+  border: #cccccc 10px solid;
+}
+
+.aboutMe {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #cccccc;
+}
+
+#aboutPic {
+  height: 40%;
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+}
+
+.portfolioContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.portfolioPic {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 20px;
+  display: block;
+  position: relative;
+}
+
+.portfolioPic-box {
+  background: #4aaaa5;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+}
+
+.portfolioCopy {
+  line-height: 5% !important;
+  margin-top: 12%;
+  font-size: 18px !important;
+  margin-top: 10%;
+}
+
+.firstpic {
+  background-image: url("../images/michael.jpeg");
+  background-size: cover;
+  border: 5px solid #bbb;
+}
+
+.secondpic {
+  background-image: url("../images/georgemichael.jpeg");
+  background-size: cover;
+  border: 5px solid #bbb;
+}
+
+.thirdpic {
+  background-image: url("../images/gob.jpeg");
+  background-size: cover;
+  border: 5px solid #bbb;
+}
+
+.fourthpic {
+  background-image: url("../images/tobias.jpeg");
+  background-size: cover;
+  border: 5px solid #bbb;
+}
+
+.fifthpic {
+  background-image: url("../images/buster.jpeg");
+  background-size: cover;
+  border: 5px solid #bbb;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:link {
+  color: #777777;
+}
+
+a:visited {
+  color: #777777;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+.copy {
+  float: right;
+  clear: both;
+  color: #cccccc;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4aaaa5;
+  color: #bbb;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4aaaa5;
 }
 
 .form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
 }
-  
+
 footer {
   position: fixed;
   clear: both;
   background: #666666;
-  bottom:0;
-  width:100%;
-  height:10%;  
+  bottom: 0;
+  width: 100%;
+  height: 10%;
   border-top: 10px #4aaaa5 solid;
   margin-top: 200px;
 }
@@ -247,6 +267,6 @@ footer {
 #copyright {
   padding-top: 10px;
   color: #777777;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
