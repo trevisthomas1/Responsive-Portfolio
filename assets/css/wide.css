@@ -154,19 +154,19 @@ nav ul li a {
 }
 
 .firstpic {
-  background-image: url("../images/michael.jpeg");
+  background-image: url("../images/mad_hangmax.JPG");
   background-size: cover;
   border: 5px solid #bbb;
 }
 
 .secondpic {
-  background-image: url("../images/georgemichael.jpeg");
+  background-image: url("../images/crystal_collector.JPG");
   background-size: cover;
   border: 5px solid #bbb;
 }
 
 .thirdpic {
-  background-image: url("../images/gob.jpeg");
+  background-image: url("../images/trivia_game.JPG");
   background-size: cover;
   border: 5px solid #bbb;
 }
